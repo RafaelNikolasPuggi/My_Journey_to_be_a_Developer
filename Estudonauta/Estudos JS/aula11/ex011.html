@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>De qual país você veio?</h1>
+    Declare o seu País: <input type="text" id="txtpais">
+    <input type="button" value="Registrar" onclick='registrar()'>
+    <div id="res">
+
+    </div>
+    <p>Bem vindo ao Brasil!</p>
+    <script>
+        function registrar() {
+            var txtpais = window.document.getElementById('txtpais')
+            var res = window.document.getElementById('res')
+            if (txtpais == 'Brasil'){
+                res.innerHTML = `<p>Você é um estrangeiro!</p>`
+            }
+            else{
+                res.innerHTML = `<p>De volta em?! Melhor lugar no mundo é aqui mesmo né?</p>`
+            }
+    }
+    </script>
+</body>
+</html>
