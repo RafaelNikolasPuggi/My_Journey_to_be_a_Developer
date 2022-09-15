@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: #9E9886;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+    color: #47F5BE;
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #38C296;
+    color: white;
+}
+
+h2{
+    color: #64C2BB;
+}
+
+.basico{
+    color: rgba(0, 128, 0, 0.578);
+}
+
+.intermediario{
+    color: rgba(255, 255, 0, 0.483);
+}
+
+.avancado{
+    color: rgba(255, 0, 0, 0.513);
+}
+
+.destaque{
+    background-color: rgba(180, 170, 73, 0.603);
+}
