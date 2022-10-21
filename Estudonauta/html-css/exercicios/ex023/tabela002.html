@@ -13,6 +13,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -21,13 +22,23 @@
             padding: 10px;
             background-color: lightgray;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(94, 92, 92);
+        }
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
 
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(94, 92, 92);
             color: white;
         }
         .num {
@@ -175,8 +186,14 @@
                 <td class="num">652.713</td>
             </tr>
         </tbody>
-        
-
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non ad nostrum. Libero amet temporibus tenetur ullam aliquid iure. Ipsa, dicta. Eveniet, necessitatibus magni. Dolores incidunt iusto consequuntur voluptate suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos sapiente eos doloremque architecto repellat voluptatibus aliquid nulla doloribus, optio, quam voluptate esse sed consectetur iusto, laboriosam facere dolorem totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non, placeat sit vitae ex laborum neque sunt, rerum, esse praesentium veniam quibusdam hic velit nihil. Ad libero officia deserunt ratione!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non ad nostrum. Libero amet temporibus tenetur ullam aliquid iure. Ipsa, dicta. Eveniet, necessitatibus magni. Dolores incidunt iusto consequuntur voluptate suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos sapiente eos doloremque architecto repellat voluptatibus aliquid nulla doloribus, optio, quam voluptate esse sed consectetur iusto, laboriosam facere dolorem totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non, placeat sit vitae ex laborum neque sunt, rerum, esse praesentium veniam quibusdam hic velit nihil. Ad libero officia deserunt ratione!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non ad nostrum. Libero amet temporibus tenetur ullam aliquid iure. Ipsa, dicta. Eveniet, necessitatibus magni. Dolores incidunt iusto consequuntur voluptate suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos sapiente eos doloremque architecto repellat voluptatibus aliquid nulla doloribus, optio, quam voluptate esse sed consectetur iusto, laboriosam facere dolorem totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non, placeat sit vitae ex laborum neque sunt, rerum, esse praesentium veniam quibusdam hic velit nihil. Ad libero officia deserunt ratione!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non ad nostrum. Libero amet temporibus tenetur ullam aliquid iure. Ipsa, dicta. Eveniet, necessitatibus magni. Dolores incidunt iusto consequuntur voluptate suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos sapiente eos doloremque architecto repellat voluptatibus aliquid nulla doloribus, optio, quam voluptate esse sed consectetur iusto, laboriosam facere dolorem totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non, placeat sit vitae ex laborum neque sunt, rerum, esse praesentium veniam quibusdam hic velit nihil. Ad libero officia deserunt ratione!</p>
 </body>
 </html>
