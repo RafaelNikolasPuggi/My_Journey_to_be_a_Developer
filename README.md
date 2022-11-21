@@ -5,4 +5,4 @@
 
 <a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Estudonauta/html-css/Desafios/Des_12_Projeto_cordel/" target="_blank" class="externo">Projeto Cordel</a> <br>
 
-<a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Estudonauta/html-css/Desafios/Des_15_Projeto_social/" target="_blank" class="externo">Projeto Cordel</a>
+<a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Estudonauta/html-css/Desafios/Des_15_Projeto_Social/" target="_blank" class="externo">Projeto Social</a>
