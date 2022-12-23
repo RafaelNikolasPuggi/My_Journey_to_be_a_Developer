@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minha Namorada Linda</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            background-color: white;
+            border: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="audio" src="Roxette - Almost Unreal.mp3"></audio>
+    <button id="play-button" onclick="playAudio()">Play</button>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('audio');
+            audio.play();
+        }
+
+    </script>
+</body>
+
+</html>
