@@ -7,4 +7,4 @@
 
 <a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Estudonauta/html-css/Desafios/Des_15_Projeto_Social/" target="_blank" class="externo">Projeto Social</a>
 
-<a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Projetinhos/Rel%C3%B3gio%20Digital/" target="_blank" class="externo">Projeto Social</a>
+<a href="https://rafaelnikolaspuggi.github.io/Area_de_Estudos/Projetinhos/Rel%C3%B3gio%20Digital/" target="_blank" class="externo">Relógio Digital</a>
