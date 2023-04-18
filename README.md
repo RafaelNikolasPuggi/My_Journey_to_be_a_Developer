@@ -1,17 +1,14 @@
-# Meus principais projetos
+# Olá! 👋🤓
 
- 
- <br>
+Aqui é onde eu registro tudo o que estudo e pratico.<br>
+Então vamos lá! Rumo à excelência! 🚀
 
-<a href="https://rafaelnikolaspuggi.github.io/My_Learning/Estudonauta/html-css/Desafios/Des_12_Projeto_cordel/" target="_blank" class="externo">Projeto Cordel</a> <br>
+## Meus estudos👨‍💻
 
-<a href="https://rafaelnikolaspuggi.github.io/My_Learning/Estudonauta/html-css/Desafios/Des_15_Projeto_Social/" target="_blank" class="externo">Projeto Social</a>
-
-<a href="https://rafaelnikolaspuggi.github.io/My_Learning/Projetinhos/Rel%C3%B3gio%20Digital/" target="_blank" class="externo">Relógio Digital</a>
-
-
-| Link do projeto | Código do projeto 
-| --------------- | -------------- |
-| <a href="https://rafaelnikolaspuggi.github.io/My_Learning/Estudonauta/html-css/Desafios/Des_10_Projeto_web_droid/" target="_blank" class="externo">Web Droid</a> | <a href="https://github.com/RafaelNikolasPuggi/My_Learning/tree/main/Estudonauta/html-css/Desafios/Des_10_Projeto_web_droid" target="_blank" class="externo">Código Web Droid</a> |
-| --------------- | -------------- |
+| Nome do Projeto | Descrição | Código do Projeto | Página do Projeto |
+| --- | --- | --- | --- |
+| Projeto 1 | Descrição do Projeto 1 | [Código](https://github.com/seu-usuario/projeto-1) | [Página](https://seu-usuario.github.io/projeto-1) |
+| Projeto 2 | Descrição do Projeto 2 | [Código](https://github.com/seu-usuario/projeto-2) | [Página](https://seu-usuario.github.io/projeto-2) |
+| Projeto de Referência 1 | Descrição do Projeto de Referência 1 | [Código](https://github.com/usuario/projeto-de-referencia-1) | [Página](https://usuario.github.io/projeto-de-referencia-1) |
+| Projeto de Referência 2 | Descrição do Projeto de Referência 2 | [Código](https://github.com/usuario/projeto-de-referencia-2) | [Página](https://usuario.github.io/projeto-de-referencia-2) |
 
