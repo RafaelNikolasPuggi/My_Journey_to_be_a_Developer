@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 50vw;
-    padding: 25px;
+    padding: 30px;
     background-color: #3f3f3f;
     text-align: justify;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
@@ -46,8 +46,10 @@ body {
 }
 
 .icon img {
-    width: 250px;
+    min-width: 200px;
+    max-width: 250px;
 }
+
 
 /** Content **/
 .content {
