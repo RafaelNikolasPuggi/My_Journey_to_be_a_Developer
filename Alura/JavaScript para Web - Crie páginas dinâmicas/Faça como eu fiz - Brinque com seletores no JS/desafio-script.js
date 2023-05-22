@@ -1,12 +1,8 @@
-function botoes () {
-    document.querySelector(".teclado input[type=button]");
-}
+const botoesTeclado = document.querySelectorAll('.botao-teclado');
 
-botoes.forEach(botao => {
+botoesTeclado.forEach(botao => {
     botao.addEventListener('click', () => {
         const valorBotao = botao.value;
+        document.getElementById('valor-selecionado').textContent = valorBotao;
     });
 });
-
-document.getElementById('telefone').value += valorBotao;
-

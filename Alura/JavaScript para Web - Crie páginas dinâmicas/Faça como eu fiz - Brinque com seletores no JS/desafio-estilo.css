@@ -13,6 +13,10 @@
     min-height: 100vh;
   }
   
+  #texto_telefone {
+    
+  }
+
   input {
     border: none;
     color: inherit;
