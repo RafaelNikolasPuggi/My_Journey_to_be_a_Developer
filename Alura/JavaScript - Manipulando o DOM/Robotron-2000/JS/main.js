@@ -1,4 +1,4 @@
-const controle = document.querySelectorAll('[data-controle');
+const controle = document.querySelectorAll('[data-controle]');
 
 controle.forEach( (elemento) => {
     elemento.addEventListener('click', (evento) => {
