@@ -1,9 +1,14 @@
 const lista = document.querySelector("ul");
+const botaoMostrar = document.querySelector("button");
+const botaoEsconder = document.createElement("button");
 
-document.querySelector("#botao").addEventListener("click", () => {
-    lista.setAttribute("data-lista", "mostrar");
-})
+botaoEsconder.textContent = "Esconder cores";
+document.body.appendChild(botaoEsconder);
 
-document.querySelector('.close').addEventListener('click', () => {
-    lista.setAttribute("data-lista", "esconder");
-})
+botaoMostrar.addEventListener("click", () => {
+  lista.style.display = "block";
+});
+
+botaoEsconder.addEventListener("click", () => {
+  lista.style.display = "none";
+});
