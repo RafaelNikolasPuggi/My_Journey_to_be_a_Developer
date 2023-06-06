@@ -35,6 +35,13 @@ main {
     margin: 0;
     flex-basis: 40%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-robotron {
+    position: relative;
 }
 
 .robo {
@@ -45,11 +52,23 @@ main {
     top: -5%;
 }
 
+#cor-robo {
+    margin-top: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+    cursor: pointer;
+}
+
+
 .titulo {
     transform: rotate(180deg);
     font-weight: 500;
     font-size: 130px;
-    position: absolute;
+    position: relative;
     bottom: 7rem;
     left: -3rem;
     line-height: 0.8;
