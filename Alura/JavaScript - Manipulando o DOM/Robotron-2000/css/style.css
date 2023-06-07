@@ -30,7 +30,6 @@ main {
 }
 
 .robotron {
-    background: url(../img/estrutura.png) no-repeat;
     background-position: center center;
     margin: 0;
     flex-basis: 40%;
@@ -38,22 +37,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#div-robotron {
-    position: relative;
+    justify-content: center;
+    text-align: justify;
 }
 
 .robo {
-    height: 110%;
+    width: 100%;
+    height: auto;
     z-index: 1;
     position: absolute;
-    left: -20%;
-    top: -5%;
 }
 
 #cor-robo {
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 2em;
     text-transform: uppercase;
     padding: 0.2em 1em;
@@ -67,14 +63,14 @@ main {
 .titulo {
     transform: rotate(180deg);
     font-weight: 500;
-    font-size: 130px;
+    font-size: 133px;
     position: relative;
-    bottom: 7rem;
-    left: -3rem;
+    bottom: -7rem;
+    left: -14rem;
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(255,255,255,0.8);
 }
 
 .box {
@@ -176,9 +172,9 @@ main {
 }
 
 .estatistica {
-    color: var(--main-branco);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    color: var(--main-branco);
     height: 25%;
 }
 
@@ -187,14 +183,12 @@ main {
     border-bottom: 1px solid var(--main-cinza);
     flex-basis: 40%;
     text-transform: uppercase;
-    order: 1
-}
+    }
 
 .estatistica-valor {
     flex-basis: 60%;
     position: relative;
     margin: 10px 0 0;
-    order: 2;
     margin: -10px 0 0;
 }
 
