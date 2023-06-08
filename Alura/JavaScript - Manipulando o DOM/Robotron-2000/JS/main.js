@@ -54,9 +54,6 @@ const imagensRobotron = [
     'img/vermelho.png'
 ];
 
-// Variável para controlar o índice atual da imagem exibida
-let indiceImagemAtual = 0;
-
 // Adiciona um evento de clique a todos os elementos de controle
 controle.forEach((elemento) => {
     elemento.addEventListener('click', (evento) => {
@@ -88,6 +85,9 @@ function atualizaEstatistica(peca, operacao) {
         }
     });
 }
+
+// Variável para controlar o índice atual da imagem exibida
+let indiceImagemAtual = 0;
 
 // Adiciona um evento de clique ao botão para alterar a imagem do Robotron
 botaoCorRobotron.addEventListener('click', () => {
