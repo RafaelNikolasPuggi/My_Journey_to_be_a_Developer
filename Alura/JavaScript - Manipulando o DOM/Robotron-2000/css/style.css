@@ -42,7 +42,7 @@ main {
 
 .robo {
     width: 120%;
-    height: auto;
+    min-width: 400px;
     z-index: 1;
     position: absolute;
 }
@@ -50,18 +50,18 @@ main {
 .titulo {
     transform: rotate(180deg);
     font-weight: 500;
-    font-size: 133px;
-    position: relative;
-    top: 10rem;
-    left: -15rem;
+    font-size: 130px;
+    position: absolute;
+    bottom: 7rem;
+    left: -3rem;
     line-height: 0.8;
     writing-mode: vertical-rl;
-    text-orientation: mixed
+    text-orientation: mixed;
 }
 
 #botao-cor-robotron {
     font-weight: bolder;
-    margin-top: 6em;
+    margin-top: 120%;
     font-size: 2em;
     text-transform: uppercase;
     padding: 0.2em 1em;
@@ -69,6 +69,8 @@ main {
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
+    z-index: 2
+
 }
 
 #botao-cor-robotron:hover {
