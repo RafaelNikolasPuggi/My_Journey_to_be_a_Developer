@@ -36,17 +36,19 @@ form.addEventListener('submit', (event) => {
 });
 
 function criaElemento(item) {
-
     const novoItem = document.createElement('li');
     novoItem.classList.add('item');
+    novoItem.style.display = 'flex';
+    novoItem.style.justifyContent = 'space-between';
 
     const numeroItem = document.createElement('strong');
-    numeroItem.innerHTML = item.quantidade;
     numeroItem.dataset.id = item.id;
     numeroItem.innerHTML = item.quantidade;
     novoItem.appendChild(numeroItem);
 
-    novoItem.innerHTML += item.nome;
+    const nomeItem = document.createElement('span');
+    nomeItem.innerHTML = item.nome;
+    novoItem.appendChild(nomeItem);
 
     novoItem.appendChild(botaoDeleta(item.id));
 
