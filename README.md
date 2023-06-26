@@ -1,4 +1,3 @@
-
   <h1>Olá! 👋🤓</h1>
   <p>Aqui é onde eu registro tudo o que estudo e pratico.</p>
   <p>Então vamos lá! Rumo à excelência! 🚀</p>
@@ -14,6 +13,13 @@
       </tr>
     </thead>
     <tbody>
+    <tr>
+        <td><strong>Consulta Via CEP</strong></td>
+        <td>HTML5, CSS3 e JavaScript</td>
+        <td>Alura</td>
+        <td><a href="https://github.com/RafaelNikolasPuggi/My_Learning/tree/main/Alura/JavaScript%20-%20Consumindo%20dados%20API%20main">Código</a></td>
+        <td><a href="https://rafaelnikolaspuggi.github.io/My_Learning/Alura/JavaScript%20-%20Consumindo%20dados%20API%20main"><img width="200px" src="./Previews/Consulta Via Cep.png"/></a></td>
+    </tr>
     <tr>
         <td><strong>Mochila de Viagem</strong></td>
         <td>HTML5, CSS3 e JavaScript</td>
