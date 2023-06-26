@@ -10,7 +10,7 @@ async function buscaEndereco(cep) {
         var consultaCEP = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
         var consultaCEPconvertido = await consultaCEP.json();
         if (consultaCEPconvertido.erro) {
-            throw Error('CEP não existe!');
+            throw Error;
         }
 
         logradouro.value = consultaCEPconvertido.logradouro;
@@ -27,7 +27,7 @@ async function buscaEndereco(cep) {
             mensagemErro.innerHTML = `<p>O CEP deve conter apenas números.</p>`;
         } else {
             // O CEP é válido
-            mensagemErro.innerHTML = ``;
+            mensagemErro.innerHTML = `CEP inexistente!`;
         }
     }
 
