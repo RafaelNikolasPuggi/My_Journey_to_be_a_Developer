@@ -2,12 +2,7 @@ import ehUmCpf from "./valida-cpf.js";
 import ehMaiorDeIdade from "./valida-idade.js";
 
 const camposDoFormulario = document.querySelectorAll('[required]');
-
-camposDoFormulario.forEach((campo) => {
-    campo.addEventListener('blur', () => verificarCampo(campo));
-    campo.addEventListener('invalid', evento => evento.preventDefault());
-})
-
+const formulario = document.querySelector('[data-formulario]');
 const tiposDeErro = [
     'valueMissing',
     'typeMismatch',
@@ -15,7 +10,6 @@ const tiposDeErro = [
     'tooShort',
     'customError'
 ]
-
 const mensagens = {
     nome: {
         valueMissing: "O campo de nome não pode estar vazio.",
@@ -46,6 +40,27 @@ const mensagens = {
         valueMissing: 'Você deve aceitar nossos termos antes de continuar.',
     }
 }
+
+formulario.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const listaResposta = {
+        'nome': e.target.elements['nome'].value,
+        'email': e.target.elements['email'].value,
+        'rg': e.target.elements['rg'].value,
+        'cpf': e.target.elements['cpf'].value,
+        'aniversario': e.target.elements['aniversario'].value
+    }
+
+    localStorage.setItem('cadastro', JSON.stringify(listaResposta));
+
+    window.location.href = './abrir-conta-form-2.html';
+})
+
+camposDoFormulario.forEach((campo) => {
+    campo.addEventListener('blur', () => verificarCampo(campo));
+    campo.addEventListener('invalid', evento => evento.preventDefault());
+})
 
 function verificarCampo(campo){
     let mensagem = '';
