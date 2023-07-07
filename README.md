@@ -14,8 +14,15 @@
     </thead>
     <tbody>
     <tr>
-        <td><strong>Alura Play</strong></td>
+        <td><strong>Mobi Bank</strong></td>
         <td>HTML5, CSS3 e JavaScript</td>
+        <td>Alura</td>
+        <td><a href="https://github.com/RafaelNikolasPuggi/My_Learning/tree/main/Alura/JavaScript%20-%20Validando%20formul%C3%A1rios">Código</a></td>
+        <td><a href="https://rafaelnikolaspuggi.github.io/My_Learning/Alura/JavaScript%20-%20Validando%20formulários"><img width="200px" src="./Previews/MobiBank.png"/></a></td>
+    </tr>
+    <tr>
+        <td><strong>Alura Play</strong></td>
+        <td>HTML5, CSS3, JavaScript, NodeJS e Json-server</td>
         <td>Alura</td>
         <td><a href="https://github.com/RafaelNikolasPuggi/My_Learning/tree/main/Alura/JavaScript%20-%20Criando%20requisições">Código</a></td>
         <td><a href="https://rafaelnikolaspuggi.github.io/My_Learning/Alura/JavaScript%20-%20Criando%20requisi%C3%A7%C3%B5es/"><img width="200px" src="./Previews/AluraPlay.png"/></a></td>
