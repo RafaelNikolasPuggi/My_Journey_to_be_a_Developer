@@ -1,0 +1,17 @@
+@import url("header.css");
+@import url("table.css");
+@import url("rodape.css");
+
+:root {
+    --cor-de-fundo: rgb(25,25,25);
+    --fundo-gradient: radial-gradient(circle, rgba(25,25,25,0.9986502169227066) 0%, rgba(0,0,0,1) 53%);
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+    --cor-fonte: white;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

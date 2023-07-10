@@ -1,0 +1,20 @@
+:root {
+    --border-table: 2px black solid;
+
+}
+
+table, thead, tbody, th, td, tr {
+    border: var(--border-table);
+    padding: 5px;    
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    
+}
+
+.image-preview {
+    max-width: 300px;
+    min-width: 140px;
+
+}
