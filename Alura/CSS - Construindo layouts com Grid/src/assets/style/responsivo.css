@@ -19,6 +19,11 @@
         padding-right: 1rem;
     }
 
+    .secao__cartoes {
+        row-gap: 0.5rem;
+        --gab-coluna: 1rem;
+    }
+
     .secao-horizontal .cartao {
         column-gap: 0.5rem;
     }
@@ -67,6 +72,9 @@
         padding-left: 0.75rem;
     }
 
+    .secao__cartoes {
+        column-gap: 1.5rem;
+    }
     .secao-horizontal .cartao__titulo {
         font: 700 16px/22px 'Open Sans', sans-serif;
     }
