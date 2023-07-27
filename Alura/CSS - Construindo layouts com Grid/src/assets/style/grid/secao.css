@@ -50,8 +50,9 @@
     */
 }
 
-.secao-vertical.secao {
+.secao-vertical .secao {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
 
