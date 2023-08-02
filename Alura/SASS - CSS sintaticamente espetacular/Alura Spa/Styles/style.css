@@ -13,8 +13,31 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #0E2954;
+  color: #B46060;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #84A7A1;
+  border-bottom: 2px solid #966c52;
+}
+
+.banner {
+  align-items: center;
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFF4E0;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #B46060;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #966c52;
 }/*# sourceMappingURL=style.css.map */
