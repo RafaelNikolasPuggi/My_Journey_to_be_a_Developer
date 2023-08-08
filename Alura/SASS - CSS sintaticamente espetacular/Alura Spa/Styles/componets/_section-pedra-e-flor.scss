@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+
+#pedra-e-flor {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    .img-container {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 100%;
+            padding-bottom: 2px;
+            border-bottom: 6px solid $cor-secundaria;
+            margin-bottom: 30px;
+        }
+    }
+    h3 {
+        font-size: $tamanho-do-texto / 2;
+        margin-bottom: 20px;
+        color: $cor-primaria;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: $tamanho-do-texto / 2.2;
+        margin-bottom: 20px;
+        color: $cor-secundaria;
+    }
+    p {
+        font-size: $tamanho-do-texto / 2.5;
+        color: $cor-primaria;
+    }
+
+
+
+}
