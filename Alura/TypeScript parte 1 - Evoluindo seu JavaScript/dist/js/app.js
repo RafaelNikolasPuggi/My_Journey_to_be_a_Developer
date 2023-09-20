@@ -1,1 +1,1 @@
-alert('oi')
+import { Negociacao } from "./models/negociacao";
