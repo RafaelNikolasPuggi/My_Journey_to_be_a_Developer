@@ -1,0 +1,9 @@
+{ 
+    "compilerOptions": {
+        "outDir": "dist/js", //Diretório onde será compilado
+        "target": "ES6", //Conversão de TS para ES6
+        "noEmitOnError": true, //Não irá gerar arquivos em JS enquanto o TS estiver incorreto
+        "noImplicitAny": true // Não aceita que algum valor seja configurado como Any, a não ser que seja especificado.
+    },
+    "include": ["app/**/*"] //Diretório de onde será convertido
+}
