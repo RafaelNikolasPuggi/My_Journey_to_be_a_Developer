@@ -4,11 +4,12 @@ export class MensagemView {
     }
     template(model) {
         return `
-        <p class="alert alert-info'>${model}</p>
+        <p class='alert alert-info'>${model}</p>
         `;
     }
     update(model) {
         const template = this.template(model);
         this.element.innerHTML = template;
+        console.log(template);
     }
 }

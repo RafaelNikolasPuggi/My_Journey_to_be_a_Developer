@@ -7,13 +7,14 @@ export class MensagemView {
     }
     template(model: string): string {
         return `
-        <p class="alert alert-info'>${model}</p>
+        <p class='alert alert-info'>${model}</p>
         `
     }
 
     update(model: string): void {
         const template = this.template(model);
         this.element.innerHTML = template;
+        console.log(template);
     }
 
 }
