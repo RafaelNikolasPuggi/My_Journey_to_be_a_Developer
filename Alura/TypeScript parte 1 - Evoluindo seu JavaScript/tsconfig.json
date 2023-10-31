@@ -1,11 +1,12 @@
 { 
     "compilerOptions": {
-        "outDir": "dist/js", //Diretório onde será compilado.
+        "outDir": "app/dist/js", //Diretório onde será compilado.
         "target": "ES6", //Conversão de TS para ES6.
         "noEmitOnError": true, //Não irá gerar arquivos em JS enquanto o TS estiver incorreto.
         "noImplicitAny": true, // Não aceita que algum valor seja configurado como Any, a não ser que seja especificado.
         "removeComments": true, // Remove comentários da aplicação
         "strictNullChecks": true, // Para de assumir implicitamente o tipo null para todos os tipos da aplicação, assim fazendo com que o dev seja obrigado a deixar explicito o tipo null em todos os pontos que iram receber nulo.
+        "experimentalDecorators": true, //
     },
-    "include": ["app/**/*"] // Diretório de onde será convertido.
+    "include": ["app/src/**/*"] // Diretório de onde será convertido.
 }

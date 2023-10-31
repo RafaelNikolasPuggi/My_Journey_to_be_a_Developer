@@ -20,8 +20,9 @@ export abstract class View<T> {
         if (this.escapar) {
             template = template
                 .replace(/<script>[\s\S]*?<\/script>/, '');
+        } else {
+             this.elemento.innerHTML = template;
         }
-        this.elemento.innerHTML = template;
     }
 
     protected abstract template(model: T): string;
