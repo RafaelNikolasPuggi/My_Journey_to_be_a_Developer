@@ -6,7 +6,8 @@
         "noImplicitAny": true, // Não aceita que algum valor seja configurado como Any, a não ser que seja especificado.
         "removeComments": true, // Remove comentários da aplicação
         "strictNullChecks": true, // Para de assumir implicitamente o tipo null para todos os tipos da aplicação, assim fazendo com que o dev seja obrigado a deixar explicito o tipo null em todos os pontos que iram receber nulo.
-        "experimentalDecorators": true, //
+        "experimentalDecorators": true, // Permite utilizar Decorators para testes
+        "sourceMap": true // 
     },
     "include": ["app/src/**/*"] // Diretório de onde será convertido.
 }
