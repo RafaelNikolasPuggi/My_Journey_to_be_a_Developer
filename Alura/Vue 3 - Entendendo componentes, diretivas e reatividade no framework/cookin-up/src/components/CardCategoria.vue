@@ -3,7 +3,6 @@ import type ICategoria from '@/interfaces/ICategoria';
 import type { PropType } from 'vue';
 import Tag from './Tag.vue';
 import IngredienteSelecionavel from './IngredienteSelecionavel.vue';
-import IngredienteSelecionavelVue from './IngredienteSelecionavel.vue';
 
 export default {
     props: {

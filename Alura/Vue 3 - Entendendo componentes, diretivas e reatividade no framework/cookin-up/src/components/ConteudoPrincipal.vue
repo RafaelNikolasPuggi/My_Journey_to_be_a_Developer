@@ -1,6 +1,6 @@
 <script lang="ts">
 import SelecionarIngredientesVue from './SelecionarIngredientes.vue';
-import SuaLista from './SuaLista.vue';
+import SuaListaVue from './SuaLista.vue';
 
 export default {
     data() {
@@ -8,7 +8,7 @@ export default {
             ingredientes: [] as string[]
         };
     },
-    components: { SelecionarIngredientesVue, SuaLista },
+    components: { SelecionarIngredientesVue, SuaListaVue },
     methods: {
       adicionarIngrediente(ingrediente: string) {
         this.ingredientes.push(ingrediente)
@@ -28,6 +28,7 @@ export default {
         @remover-ingrediente="removerIngrediente"
       />
     </main>
+
 </template>
 
 <style scoped>
