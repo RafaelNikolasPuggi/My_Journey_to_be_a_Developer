@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
     props: {
-        texto: { type: String, required: true}
+        texto: { type: String, required: true },
     }
 }
 </script>
@@ -13,7 +13,7 @@ export default {
 </template>
 
 <style scoped>
-.bota-principal {
+.botao-principal {
     width: 19.5rem;
   height: 3.5rem;
   padding: 0.5rem 1rem;
