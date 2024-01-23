@@ -15,7 +15,7 @@ export default {
 
         this.receitasEncontradas = receitas.slice(0, 8);
     },
-    componets: { BotaoPrincipal, CardReceita },
+    components: { BotaoPrincipal, CardReceita },
     emits: ['editarReceitas']
 }
 </script>

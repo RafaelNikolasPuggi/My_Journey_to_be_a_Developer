@@ -1,7 +1,7 @@
 import type ICategoria from "@/interfaces/ICategoria";
 import type IReceita from "@/interfaces/IReceita";
 
-export async function obterDadosURL<T>(url: string) { 
+async function obterDadosURL<T>(url: string) { 
     const resposta = await fetch(url);
     return resposta.json() as T;
   }
