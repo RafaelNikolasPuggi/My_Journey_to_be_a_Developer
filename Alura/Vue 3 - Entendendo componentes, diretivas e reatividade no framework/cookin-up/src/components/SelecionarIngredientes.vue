@@ -15,7 +15,7 @@ export default {
         this.categorias = await obterCategorias();
     },
     components: { CardCategoria, BotaoPrincipal },
-    emits:['adicionarIngrediente', 'removerIngrediente', 'buscarReceitas']
+    emits: ['adicionarIngrediente', 'removerIngrediente', 'buscarReceitas']
 }
 </script>
 
@@ -23,7 +23,7 @@ export default {
     <section class="selecionar-ingredientes">
         <h1 class="cabecalho titulo-ingredientes">Ingredientes</h1>
 
-        <p class="paragrafo-lg intrucoes">
+        <p class="paragrafo-lg instrucoes">
             Selecione abaixo os ingredientes que você quer usar nesta receita:
         </p>
 
@@ -41,7 +41,7 @@ export default {
             Atenção: consideramos que você tem em casa, sal, pimenta e água.
         </p>
 
-        <BotaoPrincipal texto="Buscar receitas!" @click="$emit('buscarReceitas')"/>
+        <BotaoPrincipal texto="Buscar receitas!" @click="$emit('buscarReceitas')" />
     </section>
 </template>
 

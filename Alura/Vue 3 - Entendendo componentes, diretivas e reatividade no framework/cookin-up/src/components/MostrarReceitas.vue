@@ -19,7 +19,7 @@ export default {
         const receitas = await obterReceitas();
 
         this.receitasEncontradas = receitas.filter((receita) => {
-            const possoFazerReceita = itensDeLista1EstaoEmLista2(receita.ingredietes, this.ingredientes);
+            const possoFazerReceita = itensDeLista1EstaoEmLista2(receita.ingredientes, this.ingredientes);
 
             return possoFazerReceita;
         })
