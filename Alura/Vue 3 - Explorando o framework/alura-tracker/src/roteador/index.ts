@@ -1,6 +1,5 @@
 import {
   RouteRecordRaw,
-  Router,
   createRouter,
   createWebHashHistory,
 } from "vue-router";
@@ -18,11 +17,11 @@ const rotas: RouteRecordRaw[] = [
   },
 
   {
-    path: '',
+    path: '/ViewProjetos',
     component: ViewProjetos,
     children: [
       {
-        path: "/projetos",
+        path: "",
         name: "ListaProjetos",
         component: ListaProjetos,
       },
