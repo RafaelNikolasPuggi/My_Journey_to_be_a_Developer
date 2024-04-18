@@ -57,7 +57,7 @@ export default defineComponent({
         this.store.commit(ADICIONA_PROJETO, this.nomeDoProjeto);
       }
       this.nomeDoProjeto = "";
-      this.$router.push("/projetos");
+      this.$router.push("/ViewProjetos");
     },
   },
   setup() {

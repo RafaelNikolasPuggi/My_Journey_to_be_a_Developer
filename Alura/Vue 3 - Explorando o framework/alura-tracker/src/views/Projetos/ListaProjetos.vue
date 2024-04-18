@@ -1,6 +1,6 @@
 <template>
   <section>
-    <router-link to="/projetos/novo" class="button">
+    <router-link to="/ViewProjetos/novo" class="button">
       <span class="icon is-small">
         <i class="fas fa-plus"></i>
       </span>
@@ -19,7 +19,7 @@
           <td>{{ projeto.id }}</td>
           <td>{{ projeto.nome }}</td>
           <td>
-            <router-link :to="`/projetos/${projeto.id}`" class="button">
+            <router-link :to="`/ViewProjetos/${projeto.id}`" class="button">
               <span class="icon is-small">
                 <i class="fas fa-pencil-alt"></i>
               </span>

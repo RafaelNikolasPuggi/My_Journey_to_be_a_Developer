@@ -4,16 +4,16 @@ import {
   createWebHashHistory,
 } from "vue-router";
 
-import Tarefas from "@/views/ViewTarefas.vue";
 import ViewFormulario from "@/views/Projetos/ViewFormulario.vue";
 import ListaProjetos from "@/views/Projetos/ListaProjetos.vue";
 import ViewProjetos from "@/views/ViewProjetos.vue";
+import ViewTarefas from "@/views/ViewTarefas.vue";
 
 const rotas: RouteRecordRaw[] = [
   {
     path: "/",
     name: "ViewTarefas",
-    component: Tarefas,
+    component: ViewTarefas,
   },
 
   {
