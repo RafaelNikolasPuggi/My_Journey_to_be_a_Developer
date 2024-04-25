@@ -24,7 +24,7 @@
                 <i class="fas fa-pencil-alt"></i>
               </span>
             </router-link>
-            <button class="button ml-2 is-danger">
+            <button class="button ml-2 is-danger" @click="excluir(projeto.id)">
               <span class="icon is-small">
                 <i class="fas fa-trash"></i>
               </span>
