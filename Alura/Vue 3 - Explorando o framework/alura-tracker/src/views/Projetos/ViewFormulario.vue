@@ -22,7 +22,7 @@ import { defineComponent } from "vue";
 import { useStore } from "@/store";
 import { ALTERA_PROJETO, ADICIONA_PROJETO } from "@/store/tipo-mutacoes";
 import { TipoNotificacao } from "@/interfaces/INotificacao";
-import { notificacaoMixin } from "@/mixins/notificar";
+import notificador from "@/hooks/notificador";
 
 export default defineComponent({
   name: "ViewFormulario",
@@ -33,7 +33,7 @@ export default defineComponent({
     },
   },
 
-  mixins: [notificacaoMixin],
+  //mixins: [notificacaoMixin],
 
   mounted() {
     if (this.id) {
@@ -63,13 +63,15 @@ export default defineComponent({
 
       this.nomeDoProjeto = "";
       this.$router.push("/ViewProjetos");
-      this.notificar(TipoNotificacao.ATENCAO, 'Excelente', 'O projeto foi cadastrado com sucesso!')
+      this.notificar(TipoNotificacao.SUCESSO, 'Excelente', 'O projeto foi cadastrado com sucesso!')
     },    
   },
   setup() {
     const store = useStore();
+    const { notificar } = notificador();
     return {
       store,
+      notificar
     };
   },
 });
